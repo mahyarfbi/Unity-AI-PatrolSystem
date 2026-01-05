@@ -12,8 +12,8 @@ public class AIPatrolSystem : MonoBehaviour
     [Header("For the speed of movement towards the place where it is going.")] public float Speed_Move; // برای سرعت ابحکت به سمت مکانی که قراره بره
     [Header("Time to stand at the desired location")] public float Wait_ForPlus; // زمانی که برای ایستادن در مکان مورد نظر
     [Header("Array of places where the object should go. It takes value inside the inspector.")] public Transform[] array_TargetPostion; // ارایه مکان هایی که ابجکت باید برو. داخل اینس پکتور مقدار میگیره
-    [Header("")] int length_Target; // اندیس فعلی مقصد در آرایه‌ی نقاط پاترول
-    [Header("The current index of the destination in the patrol point array.")][SerializeField] float Distance_Target; // طول عددی فاصله از مکانی که هست تا مکان مورد نظر
+    [Header("The current index of the destination in the patrol point array.")] int length_Target; // اندیس فعلی مقصد در آرایه‌ی نقاط پاترول
+    [Header("The numerical length of the distance from the current location to the desired location.")][SerializeField] float Distance_Target; // طول عددی فاصله از مکانی که هست تا مکان مورد نظر
     [Header("To activate and deactivate the system")] public bool Is_Patroling = true; // برای فعال و غیر فعال کردن سیستم
     [Header("For a coroutine that doesn't run multiple times")] bool bol_enum_Patrol;
     private void Update()
@@ -53,3 +53,4 @@ public class AIPatrolSystem : MonoBehaviour
         length_Target = 0;
     }
 }
+
