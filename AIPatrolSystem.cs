@@ -6,7 +6,7 @@ using UnityEngine;
 //////////////////////////////////////////
 //Name Developer :Mahyar_Akbari
 //Github:Mahyar_FBI
-// این کد توسط مهیار نوشته شده *** This code was written by Mahyar
+// این کد توسط مهیار نوشته شده ** This code was written by Mahyar
 public class AIPatrolSystem : MonoBehaviour 
 {
     [Header("For the speed of movement towards the place where it is going.")] public float Speed_Move; // برای سرعت ابحکت به سمت مکانی که قراره بره
