@@ -1,6 +1,7 @@
 This script implements an AI patrol system in Unity.  
 It allows an object to move between multiple predefined locations in sequence.  
 This code was created by Mahyar from Maho Company.  
+If your game is 2D, you need to change vector3 to vector2 in the code.  
 ////////////////Description/////////////  
 A patrol system in Unity is used to make AI characters move automatically between multiplepoints in the game environment.   
 These points, called waypoints, can be followed in order orin a loop.   
